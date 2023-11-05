@@ -336,10 +336,8 @@ img {
   .timeline .timeline-item {
     padding: 10px;
     margin: 10px;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: center;
+    display: block;
+    text-align: center;
   }
   /*FOOTER*/
 
@@ -375,7 +373,6 @@ img {
   }
   /*EDUCATION*/
   .timeline .timeline-item {
-    width: fit-content;
     margin-bottom: 20px;
   }
   /*FOOTER*/
